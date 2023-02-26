@@ -14,8 +14,7 @@
   padding: 20px;
   background-color: #150b3e;
   border-radius: 15px;
-  width: 400px;
-  height: 420px;
+  margin: 25px;
 }
 .heading-container {
   display: flex;
@@ -76,9 +75,8 @@
 .items-holder {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   list-style-type: none;
   flex-wrap: wrap;
-  margin-top: -5px;
-  margin-left: -40px;
+  max-width: 450px;
 }
